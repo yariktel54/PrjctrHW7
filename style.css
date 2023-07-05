@@ -1,38 +1,38 @@
 /* FONTS ONLY */
 
 @font-face {
-    font-family: 'Basis Grotesque Pro', sans-serif;
-    src: url("./fonts/BasisGrotesquePro-Regular.woff2") format("woff2");
-    src: url("./fonts/BasisGrotesquePro-Regular.woff") format("woff");
-    src: url("./fonts/BasisGrotesquePro-Regular.ttf") format("truetype");
-    src: url("./fonts/BasisGrotesquePro-Regular.eot") format("embedded-opentype");
+    font-family: 'Basis Grotesque Pro';
+    src: url("./fonts/BasisGrotesquePro-Regular.woff2") format("woff2"),
+        url("./fonts/BasisGrotesquePro-Regular.woff") format("woff"),
+        url("./fonts/BasisGrotesquePro-Regular.ttf") format("truetype"),
+        url("./fonts/BasisGrotesquePro-Regular.eot") format("embedded-opentype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
-    font-family: 'Basis Grotesque Pro', sans-serif;
-    src: url("./fonts/BasisGrotesquePro-Medium.woff2") format("woff2");
-    src: url("./fonts/BasisGrotesquePro-Medium.woff") format("woff");
-    src: url("./fonts/BasisGrotesquePro-Medium.ttf") format("truetype");
-    src: url("./fonts/BasisGrotesquePro-Medium.eot") format("embedded-opentype");
+    font-family: 'Basis Grotesque Pro';
+    src: url("./fonts/BasisGrotesquePro-Medium.woff2") format("woff2"),
+        url("./fonts/BasisGrotesquePro-Medium.woff") format("woff"),
+        url("./fonts/BasisGrotesquePro-Medium.ttf") format("truetype"),
+        url("./fonts/BasisGrotesquePro-Medium.eot") format("embedded-opentype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
 }
 @font-face {
-    font-family: 'Basis Grotesque Pro', sans-serif;
-    src: url("./fonts/BasisGrotesquePro-Light.woff2") format("woff2");
-    src: url("./fonts/BasisGrotesquePro-Light.woff") format("woff");
-    src: url("./fonts/BasisGrotesquePro-Light.ttf") format("truetype");
-    src: url("./fonts/BasisGrotesquePro-Light.eot") format("embedded-opentype");
+    font-family: 'Basis Grotesque Pro';
+    src: url("./fonts/BasisGrotesquePro-Light.woff2") format("woff2"),
+        url("./fonts/BasisGrotesquePro-Light.woff") format("woff"),
+        url("./fonts/BasisGrotesquePro-Light.ttf") format("truetype"),
+        url("./fonts/BasisGrotesquePro-Light.eot") format("embedded-opentype");
     font-style: normal;
     font-weight: 300;
 }
 @font-face {
-    font-family: 'Basis Grotesque Pro', sans-serif;
-    src: url("./fonts/BasisGrotesquePro-Bold.woff2") format("woff2");
-    src: url("./fonts/BasisGrotesquePro-Bold.woff") format("woff");
-    src: url("./fonts/BasisGrotesquePro-Bold.ttf") format("truetype");
-    src: url("./fonts/BasisGrotesquePro-Bold.eot") format("embedded-opentype");
+    font-family: 'Basis Grotesque Pro';
+    src: url("./fonts/BasisGrotesquePro-Bold.woff2") format("woff2"),
+        url("./fonts/BasisGrotesquePro-Bold.woff") format("woff"),
+        url("./fonts/BasisGrotesquePro-Bold.ttf") format("truetype"),
+        url("./fonts/BasisGrotesquePro-Bold.eot") format("embedded-opentype");
     font-style: normal;
     font-weight: bold;
 }
@@ -206,7 +206,7 @@ body {
     margin: 0px;
     color: #0536FC;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -219,7 +219,7 @@ body {
 .menu_schools {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -230,7 +230,7 @@ body {
 .menu_partners {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -241,7 +241,7 @@ body {
 .menu_about_us {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -252,7 +252,7 @@ body {
 .menu_stories {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -263,7 +263,7 @@ body {
 .menu_faq {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -280,7 +280,7 @@ body {
     margin: 0;
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -290,7 +290,7 @@ body {
 .text_logo {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-weight: 300;
     line-height: 24px;
     letter-spacing: -0.48px;
@@ -364,7 +364,7 @@ body {
 }
 .menu_number {
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
@@ -375,7 +375,7 @@ body {
 }
 .h3_menu {   
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-weight: 700;
     line-height: 24px;
     letter-spacing: -0.48px;
@@ -384,7 +384,7 @@ body {
 }
 .h3_special_menu {   
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-weight: 700;
     line-height: 24px;
     letter-spacing: -0.48px;
@@ -409,7 +409,7 @@ body {
 }
 .menu_text {
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -446,7 +446,7 @@ body {
 .just_p {
     color: #000;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     margin: 0px;
@@ -454,7 +454,7 @@ body {
 .h3 {
     color: #0536FC;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-weight: 700;
     line-height: 24px;
     letter-spacing: -0.48px;
@@ -463,7 +463,7 @@ body {
 }
 .p {
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     margin: 55px 15px;
@@ -471,7 +471,7 @@ body {
 .h1_f {
     color: #000;
     font-size: 57px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-weight: 700;
     line-height: 59px;
     letter-spacing: -1.71px;
@@ -482,7 +482,7 @@ body {
     background-color: #0536FC;
     color: #FFF;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -496,7 +496,7 @@ body {
 .h1_s {
     color: #000;
     font-size: 38px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-weight: 700;
     line-height: 42px;
     letter-spacing: -1.14px;
@@ -507,7 +507,7 @@ body {
     background-color: #0536FC;
     color: #FFF;
     font-size: 16px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     line-height: 24px;
     letter-spacing: -0.48px;
     text-transform: uppercase;
@@ -523,15 +523,20 @@ body {
 /* PROBLEMS (NAME OF BLOCK) */
 
 .text_right_problems_container {
-    margin: 0px 0px 0px 50px;
+    margin: 10px 0px 0px 50px;
 }
 .text_left_problems_container {
     margin: 0px 5% 20% 0px;
 }
+.unit {
+    grid-column: span 1;
+    grid-row: span 1;
+    margin: 0px auto 0px
+}
 .unit_h1 {
     color: #000;
     font-size: 100px;
-    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-family: 'Basis Grotesque Pro';
     font-style: normal;
     font-weight: 500;
     line-height: 100px;
@@ -578,12 +583,16 @@ body {
 }
 .t_problems {
     grid-column: span 4;
-    grid-row: span 2;
+    grid-row: span 1;
 }
 .text_problems {
     display: flex;
     width: 100%;
-    height: 60.5%;
+    height: 100%;
+}
+.laptop_only_fake_unit  {
+    grid-column: span 1;
+    grid-row: span 1;
 }
 .right_problems {
     width: 100%;
@@ -621,7 +630,7 @@ body {
     .menu_schools {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -632,7 +641,7 @@ body {
     .menu_partners {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -644,7 +653,7 @@ body {
     .menu_about_us {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -655,7 +664,7 @@ body {
     .menu_stories {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -667,7 +676,7 @@ body {
     .menu_faq {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -696,7 +705,7 @@ body {
     .h3 {
         color: #0536FC;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -0.48px;
@@ -706,7 +715,7 @@ body {
     .p {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         margin: 20px 15px 35px;
@@ -714,7 +723,7 @@ body {
     .h1_f {
         color: #000;
         font-size: 38px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-weight: 700;
         line-height: 39px;
         letter-spacing: -1.71px;
@@ -725,7 +734,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -739,7 +748,7 @@ body {
     .h1_s {
         color: #000;
         font-size: 28px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-weight: 700;
         line-height: 32px;
         letter-spacing: -1.14px;
@@ -750,7 +759,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -770,7 +779,7 @@ body {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(13, 1fr);
+        grid-template-rows: repeat(15, 1fr);
         /* background-color: rebeccapurple; */
     }
 
@@ -780,7 +789,7 @@ body {
     .menu_schools {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -792,7 +801,7 @@ body {
     .menu_partners {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -804,7 +813,7 @@ body {
     .menu_about_us {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -816,7 +825,7 @@ body {
     .menu_stories {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -828,7 +837,7 @@ body {
     .menu_faq {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -881,13 +890,17 @@ body {
     }
     .menu_text {
         font-size: 12px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: -0.48px;
         margin-bottom: 36px;
         margin-left: 20px;
+    }
+    .unit {
+        grid-column: span 2;
+        grid-row: span 1;
     }
     .menu_number_and_name {
         margin-top: 50px;
@@ -900,7 +913,7 @@ body {
     .h3 {
         color: #0536FC;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -0.48px;
@@ -910,7 +923,7 @@ body {
     .p {
         color: #000;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         margin: 20px 15px 35px;
@@ -918,18 +931,21 @@ body {
     .h1_f {
         color: #000;
         font-size: 38px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-weight: 700;
         line-height: 39px;
         letter-spacing: -1.71px;
         text-transform: uppercase;
         margin: 15px;
     }
+    .laptop_only_fake_unit  {
+        display: none;
+    }
     .button_f {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -943,7 +959,7 @@ body {
     .h1_s {
         color: #000;
         font-size: 28px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         font-weight: 700;
         line-height: 32px;
         letter-spacing: -1.14px;
@@ -954,7 +970,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-family: 'Basis Grotesque Pro';
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
