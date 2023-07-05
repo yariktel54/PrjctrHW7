@@ -1,13 +1,61 @@
+/* FONTS ONLY */
+
+@font-face {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    src: url("./fonts/BasisGrotesquePro-Regular.woff2") format("woff2");
+    src: url("./fonts/BasisGrotesquePro-Regular.woff") format("woff");
+    src: url("./fonts/BasisGrotesquePro-Regular.ttf") format("truetype");
+    src: url("./fonts/BasisGrotesquePro-Regular.eot") format("embedded-opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    src: url("./fonts/BasisGrotesquePro-Medium.woff2") format("woff2");
+    src: url("./fonts/BasisGrotesquePro-Medium.woff") format("woff");
+    src: url("./fonts/BasisGrotesquePro-Medium.ttf") format("truetype");
+    src: url("./fonts/BasisGrotesquePro-Medium.eot") format("embedded-opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    src: url("./fonts/BasisGrotesquePro-Light.woff2") format("woff2");
+    src: url("./fonts/BasisGrotesquePro-Light.woff") format("woff");
+    src: url("./fonts/BasisGrotesquePro-Light.ttf") format("truetype");
+    src: url("./fonts/BasisGrotesquePro-Light.eot") format("embedded-opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    src: url("./fonts/BasisGrotesquePro-Bold.woff2") format("woff2");
+    src: url("./fonts/BasisGrotesquePro-Bold.woff") format("woff");
+    src: url("./fonts/BasisGrotesquePro-Bold.ttf") format("truetype");
+    src: url("./fonts/BasisGrotesquePro-Bold.eot") format("embedded-opentype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+/* main ( GRID SETTINGS ) */
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* background-color: rebeccapurple; */
     grid-template-rows: repeat(8, 1fr);
 }
+
+
+/* NO MARGIN */
+
 body {
     margin: 0px;
 }
 
+
+/* FIRST BLOCKS */
 
 .t_program {
     position: relative; 
@@ -19,60 +67,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-.text_right_problems_container {
-    margin: 0px 0px 0px 50px;
-}
-.text_left_problems_container {
-    margin: 0px 5% 20% 0px;
-}
-.unit_h1 {
-    color: #000;
-    font-size: 100px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 100px;
-    letter-spacing: -3px;
-    text-transform: uppercase;
-    margin: 0px 0px 29px 0px;
-}
-.unit_img_1 {
-    background-image: url("./images/Union11.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 70px;
-    height: 70px;
-    margin: 0px 35px 0px 0px;
-}
-.unit_img_2 {
-    background-image: url("./images/Union22.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 99px;
-    height: 70px;
-    margin: 0px 35px 0px 0px;
-}
-.unit_img_3 {
-    background-image: url("./images/Union33.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 73px;
-    height: 70px;
-    margin: 0px 35px 0px 0px;
-}
-.infographics {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-.unit_top {
-    display: flex;
-    align-items: center;
 }
 
 
@@ -122,6 +116,7 @@ body {
 }
 
 
+
 .mobile_only {
     display: none;
 }
@@ -137,6 +132,8 @@ body {
     /* background-color: rebeccapurple; */
 }
 
+
+/* BACKGROUND PICTURES - IMG BLOCKS */
 
 .p_participants {
     bottom: 0;
@@ -169,6 +166,151 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* HEADER ALL */
+
+.right_header {
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left_header  {
+    height: 87px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.lang  {
+    display: flex;
+    text-decoration: none;
+    margin: 22px 50px 0px 0px;
+}
+.img_blue {
+    margin: 10px;
+    height: 5px;
+    width: 10px;
+}
+.p_blue_lang {
+    margin: 0px;
+    color: #0536FC;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+.lang_h {
+    display: none;
+}
+
+
+.menu_schools {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_partners {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_about_us {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_stories {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.menu_faq {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    margin: 23px 20px 0px 0px;
+}
+.img_menu {
+    margin: 10px;
+    height: 5px;
+    width: 10px;
+}
+.p_menu {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+}
+
+
+.text_logo {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin: 24px 0px 0px 10px;
+}
+.img_logo {
+    margin: 30px 0px 0px 50px;
+    width: 39.462px;
+    height: 57px;
+    flex-shrink: 0;
+}
+.logo_and_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+
+/* MENU ALL ( HOVERS, TRIANGLES) */
 
 .menu_container {
     position: relative;
@@ -220,11 +362,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-
 .menu_number {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Basis Grotesque Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
@@ -235,7 +375,7 @@ body {
 }
 .h3_menu {   
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Basis Grotesque Pro', sans-serif;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: -0.48px;
@@ -244,7 +384,7 @@ body {
 }
 .h3_special_menu {   
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Basis Grotesque Pro', sans-serif;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: -0.48px;
@@ -255,11 +395,21 @@ body {
     margin-top: 50px;
     margin-left: 50px;
 }
-
-
+.right_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.left_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 91px;
+}
 .menu_text {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Basis Grotesque Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -291,16 +441,141 @@ body {
 }
 
 
+/* OFTEN CLASSES (FOR FUTURE DEV) */
+
 .just_p {
     color: #000;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Basis Grotesque Pro', sans-serif;
     line-height: 24px;
     letter-spacing: -0.48px;
     margin: 0px;
 }
+.h3 {
+    color: #0536FC;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.p {
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    margin: 55px 15px;
+}
+.h1_f {
+    color: #000;
+    font-size: 57px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: -1.71px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.button_f {
+    background-color: #0536FC;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 35px 18.25px;
+    background-color: #0536FC;
+    width: 213px;
+    height: 55px;
+    margin: 45px 15px;
+}
+.h1_s {
+    color: #000;
+    font-size: 38px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -1.14px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.button_s {
+    background-color: #0536FC;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 35px 17.37px;
+    background-color: #0536FC;
+    width: 213px;
+    height: 55px;
+    margin: 45px 15px;
+}
 
 
+/* PROBLEMS (NAME OF BLOCK) */
+
+.text_right_problems_container {
+    margin: 0px 0px 0px 50px;
+}
+.text_left_problems_container {
+    margin: 0px 5% 20% 0px;
+}
+.unit_h1 {
+    color: #000;
+    font-size: 100px;
+    font-family: 'Basis Grotesque Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    margin: 0px 0px 29px 0px;
+}
+.unit_img_1 {
+    background-image: url("./images/Union11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    margin: 0px 35px 0px 0px;
+}
+.unit_img_2 {
+    background-image: url("./images/Union22.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 99px;
+    height: 70px;
+    margin: 0px 35px 0px 0px;
+}
+.unit_img_3 {
+    background-image: url("./images/Union33.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 73px;
+    height: 70px;
+    margin: 0px 35px 0px 0px;
+}
+.infographics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.unit_top {
+    display: flex;
+    align-items: center;
+}
 .t_problems {
     grid-column: span 4;
     grid-row: span 2;
@@ -336,237 +611,17 @@ body {
 }
 
 
-.right_header {
-    height: 70px;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.left_header  {
-    height: 87px;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-
-.lang  {
-    display: flex;
-    text-decoration: none;
-    margin: 22px 50px 0px 0px;
-}
-.img_blue {
-    margin: 10px;
-    height: 5px;
-    width: 10px;
-}
-.p_blue_lang {
-    margin: 0px;
-    color: #0536FC;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-}
-.lang_h {
-    display: none;
-}
-
-
-.menu_schools {
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    margin: 23px 20px 0px 0px;
-}
-.menu_partners {
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    margin: 23px 20px 0px 0px;
-}
-.menu_about_us {
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    margin: 23px 20px 0px 0px;
-}
-.menu_stories {
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    margin: 23px 20px 0px 0px;
-}
-.menu_faq {
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    margin: 23px 20px 0px 0px;
-}
-.img_menu {
-    margin: 10px;
-    height: 5px;
-    width: 10px;
-}
-.p_menu {
-    margin: 0;
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-}
-
-
-.right_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.left_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: 20px;
-    margin-right: 91px;
-}
-
-
-.text_logo {
-    color: #000;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    margin: 24px 0px 0px 10px;
-}
-.img_logo {
-    margin: 30px 0px 0px 50px;
-    width: 39.462px;
-    height: 57px;
-    flex-shrink: 0;
-}
-.logo_and_text {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-decoration: none;
-}
-
-
-.h3 {
-    color: #0536FC;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    margin: 15px;
-}
-.p {
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    margin: 55px 15px;
-}
-
-
-.h1_f {
-    color: #000;
-    font-size: 57px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    line-height: 59px;
-    letter-spacing: -1.71px;
-    text-transform: uppercase;
-    margin: 15px;
-}
-.button_f {
-    background-color: #0536FC;
-    color: #FFF;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 18px 35px 18.25px;
-    background-color: #0536FC;
-    width: 213px;
-    height: 55px;
-    margin: 45px 15px;
-}
-
-
-.h1_s {
-    color: #000;
-    font-size: 38px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: -1.14px;
-    text-transform: uppercase;
-    margin: 15px;
-}
-.button_s {
-    background-color: #0536FC;
-    color: #FFF;
-    font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    letter-spacing: -0.48px;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 17px 35px 17.37px;
-    background-color: #0536FC;
-    width: 213px;
-    height: 55px;
-    margin: 45px 15px;
-}
+/* MEDIA */
 
 @media screen and (max-width: 1024px) {
+
+
+    /* HEADER */
+
     .menu_schools {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -577,7 +632,7 @@ body {
     .menu_partners {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -589,7 +644,7 @@ body {
     .menu_about_us {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -600,7 +655,7 @@ body {
     .menu_stories {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -612,7 +667,7 @@ body {
     .menu_faq {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -622,6 +677,8 @@ body {
     }
 
 
+    /* MENU BLOCKS */
+
     .left_menu {
         display: flex;
         justify-content: space-between;
@@ -629,12 +686,17 @@ body {
         margin-left: 20px;
         margin-right: 30px;
     }
+    .rectangle_vector {
+        display: none;
+    }
 
+
+    /* OFTEN CLASSES (FOR FUTURE DEV) */
 
     .h3 {
         color: #0536FC;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -0.48px;
@@ -644,17 +706,15 @@ body {
     .p {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         margin: 20px 15px 35px;
     }
-    
-    
     .h1_f {
         color: #000;
         font-size: 38px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         font-weight: 700;
         line-height: 39px;
         letter-spacing: -1.71px;
@@ -665,7 +725,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -676,17 +736,10 @@ body {
         height: 55px;
         margin: 45px 15px;
     }
-    
-
-    .rectangle_vector {
-        display: none;
-    }
-
-    
     .h1_s {
         color: #000;
         font-size: 28px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         font-weight: 700;
         line-height: 32px;
         letter-spacing: -1.14px;
@@ -697,7 +750,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -710,15 +763,23 @@ body {
     }
 }
 @media screen and (max-width: 890px) {
+
+
+    /* main ( GRID SETTINGS ) */
+
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* background-color: rebeccapurple; */
     }
+
+
+    /* HEADER */
+
     .menu_schools {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -730,7 +791,7 @@ body {
     .menu_partners {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -742,7 +803,7 @@ body {
     .menu_about_us {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -754,7 +815,7 @@ body {
     .menu_stories {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -766,7 +827,7 @@ body {
     .menu_faq {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -781,6 +842,8 @@ body {
         margin: 22px 10px 0px 0px;
     }
 
+
+    /* FIRST BLOCKS */
 
     .p_theme {
         display: none;
@@ -806,6 +869,8 @@ body {
         align-items: center;
     }
 
+    /* MENU */
+
     .left_menu {
         display: flex;
         justify-content: space-between;
@@ -813,12 +878,28 @@ body {
         margin-left: 20px;
         margin-right: 30px;
     }
+    .menu_text {
+        font-size: 12px;
+        font-family: 'Basis Grotesque Pro', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.48px;
+        margin-bottom: 36px;
+        margin-left: 20px;
+    }
+    .menu_number_and_name {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
 
+
+    /* OFTEN CLASSES (FOR FUTURE DEV) */
 
     .h3 {
         color: #0536FC;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -0.48px;
@@ -828,17 +909,15 @@ body {
     .p {
         color: #000;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         margin: 20px 15px 35px;
     }
-    
-    
     .h1_f {
         color: #000;
         font-size: 38px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         font-weight: 700;
         line-height: 39px;
         letter-spacing: -1.71px;
@@ -849,7 +928,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -860,12 +939,10 @@ body {
         height: 55px;
         margin: 45px 15px;
     }
-    
-    
     .h1_s {
         color: #000;
         font-size: 28px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         font-weight: 700;
         line-height: 32px;
         letter-spacing: -1.14px;
@@ -876,7 +953,7 @@ body {
         background-color: #0536FC;
         color: #FFF;
         font-size: 16px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Basis Grotesque Pro', sans-serif;
         line-height: 24px;
         letter-spacing: -0.48px;
         text-transform: uppercase;
@@ -887,6 +964,9 @@ body {
         height: 55px;
         margin: 45px 15px;
     }
+
+
+    /* PROBLEMS */
 
     .t_problems {
         grid-column: span 2;
@@ -904,33 +984,31 @@ body {
     .infogr_problems {
         display: none;
     }
-    .menu_text {
-        font-size: 12px;
-        font-family: 'Raleway', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: -0.48px;
-        margin-bottom: 36px;
-        margin-left: 20px;
-    }
-    .menu_number_and_name {
-        margin-top: 50px;
-        margin-left: 20px;
-    }
 }
 @media screen and (max-width: 500px) {
+
+
+    /* MENU */
+
     .left_menu {
+        display: none;
+    }
+
+
+    /* CONTAINER */
+
+    .txt_container {
+        height: 100%;
+    }
+
+
+    /* HEADER */
+
+    .text_logo {
         display: none;
     }
     .left_header {
         justify-content: center;
-    }
-    .txt_container {
-        height: 100%;
-    }
-    .text_logo {
-        display: none;
     }
     .img_logo {
         margin: 30px 0px 0px 0px;
